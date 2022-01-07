@@ -1,0 +1,83 @@
+
+<body>    
+       <div id="secondpart">
+            <a href="" style="color:white">home</a>
+            <a href="" style="color:white">products</a>
+            <a href="" style="color:white">services</a>
+            <a href="" style="color:white">contact us</a>
+        </div> 
+    <center> <h1> Login Form </h1> </center>   
+
+    <center><img src="https://t3.ftcdn.net/jpg/03/46/83/96/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg"  width="200px"/></center>
+
+
+  <form>  
+        <div class="container">   
+            <style>
+             ::placeholder {
+              color:black;
+             }
+             </style>
+            <label>Username : </label>   
+            <input type="text" class="placeholder"placeholder="harsha" name="username" required>  
+            <br/>
+            <br/>
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter password" name="password" required>  
+            <br/>
+            <button type="submit" class="submitbtn">Login</button>  
+            <br/>
+            <input type="checkbox" checked="checked"> Remember me   
+        
+            <button type="button" class="cancelbtn"> Cancel</button>   
+         <br/>
+           <a href="#">Forgot password? </a>   
+        </div>   
+    </form>     
+</body>     
+</html>  
+
+
+csss
+
+
+
+img{
+    border-radius:50%;
+}
+.submitbtn{
+    background-color: green;
+        color: white;   
+         width: 10%;
+         padding: 8px;
+        margin: 10px;
+     border-radius: 20%;
+}
+.cancelbtn{
+    background-color: red;  
+        color: white;   
+         width: 10%;
+         padding: 8px;
+        margin: 10px;
+     border-radius: 20%;
+}
+*{
+ 
+        text-align:center;
+}
+#secondpart{
+    text-align: left;
+    padding: 20px;
+    background-color: black;
+}
+
+form{
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-color: grey;
+    border-width: 5px;
+}
+a{
+margin:10px
+}
